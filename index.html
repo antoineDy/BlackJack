@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>BlackJack</title>
+    </head>
+
+    <body>
+
+        <h1>BlackJack</h1>
+
+        <p id="dcards-el">Dealer Cards : </p>
+        <p id="dsum-el">Dealer Sum : </p>
+
+        <p id="message-el">Want to play a round ?</p>
+        <p id="cards-el">Cards : </p>
+        <p id="sum-el">Sum : </p>
+
+        <button id="btn-start" onclick="startGame()">START GAME</button>
+        <button id="btn-hit" onclick="newCard()">HIT</button>
+        <button id="btn-stand" onclick="dealerHand()">STAND</button>
+
+        <p id="player-el"> </p>
+
+        <div>
+            <button id="btn-plus">+</button>
+            <p id="bet-el"></p>
+            <button id="btn-minus">-</button>
+        </div>
+        
+       <script src="app.js"></script>
+    </body>
+</html>
